@@ -1,116 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>学习博客首页</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #f0f0f0;
-			margin: 0;
-			padding: 0;
-		}
-
-		.container {
-			max-width: 960px;
-			margin: 0 auto;
-			padding: 30px;
-			text-align: center;
-		}
-
-		.header {
-			background-color: #333;
-			color: #fff;
-			padding: 20px 0;
-		}
-
-		.header h1 {
-			margin: 0;
-			font-size: 48px;
-			font-weight: normal;
-		}
-
-		.header p {
-			margin: 0;
-			font-size: 18px;
-			font-weight: lighter;
-		}
-
-		.team {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-
-		.team-member {
-			flex: 1;
-			margin: 10px;
-			padding: 10px;
-			background-color: #fff;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-		}
-
-		.team-member img {
-			width: 100%;
-			height: auto;
-			border-radius: 5px;
-		}
-
-		.team-member h3 {
-			margin: 0;
-			font-size: 20px;
-			font-weight: normal;
-		}
-
-		.team-member p {
-			margin: 0;
-			font-size: 14px;
-			font-weight: lighter;
-		}
-
-		.weekly-assignments, .final-assignment {
-			margin: 30px 0;
-		}
-
-		.weekly-assignments h2, .final-assignment h2 {
-			margin: 0;
-			font-size: 32px;
-			font-weight: normal;
-		}
-
-		.weekly-assignments p, .final-assignment p {
-			margin: 0;
-			font-size: 16px;
-			font-weight: lighter;
-		}
-
-		.weekly-assignments ul, .final-assignment ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-
-		.weekly-assignments li, .final-assignment li {
-			margin: 0;
-			padding: 5px 0;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习博客</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="container">
-		<div class="header">
-			<h1>学习博客首页</h1>
-			<p>这里是我们团队的学习博客首页，我们将在这里分享我们的学习心得和成果。</p>
-		</div>
-
-		<div class="team">
-			<div class="team-member">
-				<img src="team_member_1.jpg" alt="团队成员1">
-				<h3>团队成员1</h3>
-				<p>团队成员1的简介</p>
-			</div>
-
-			<div class="team-member">
-				<img src="team_member_2.jpg" alt="团队成员2">
-				<h3>团队成员2</h3>
-				<p>团队成员
+    <header>
+        <h1>欢迎来到学习博客</h1>
+        <nav>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">教程</a></li>
+                <li><a href="#">资源</a></li>
+                <li><a href="#">关于</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>欢迎</h2>
+            <p>欢迎来到学习博客，这是一个专注于分享学习资源和教程的博客。在这里，你可以找到各种编程语言、框架和技术的教程，以及各种学习资源和工具推荐。</p>
+        </section>
+        <section id="categories">
+            <h2>分类</h2>
+            <ul>
+                <li><a href="#">编程</a></li>
+                <li><a href="#">设计</a></li>
+                <li><a href="#">营销</a></li>
+                <li><a href="#">产品</a></li>
+            </ul>
+        </section>
+        <section id="posts">
+            <h2>最新文章</h2>
+            <article>
+                <h3><a href="#">如何学习Python</a></h3>
+                <p>本文将介绍如何从零开始学习Python，包括安装、语法、库等基础知识。</p>
+            </article>
+            <article>
+                <h3><a href="#">Web前端开发入门</a></h3>
+                <p>本文将介绍Web前端开发的基础知识，包括HTML、CSS和JavaScript等。</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 学习博客. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
